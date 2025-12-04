@@ -1,0 +1,27 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "\\>_"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+description = "Emre Durak Portfolio"
+dateFormat = "2 January 2006"
+
+  [params.author]
+  name = "EmreDurak"
+  image = "avatar.png"
+  headline = "This is my website with my links"
+  bio = "A little bit about you"
+
+    [[params.author.links]]
+    email = "mailto:durakemre@proton.me"
+
+    [[params.author.links]]
+    github = "https://github.com/emredurak01"
+
+["params.author"]
+headline = "M.Sc. Computer Science"
+bio = ""
