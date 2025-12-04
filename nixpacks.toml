@@ -1,5 +1,5 @@
 [phases.setup]
-pkgs = ["hugoExtended"] 
+nixPkgs = ["...", "hugo"] 
 
 [phases.build]
 cmds = ["hugo --minify"]
